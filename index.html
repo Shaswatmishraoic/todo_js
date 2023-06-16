@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav">
+    <div class="tas">
+      <span id="onetxt">Tasks</span>
+      <span id="twotxt">List</span>
+    </div>
+    <div class="lis">
+      <button id="popupButton">+</button>
+      <span id="threetxt">Add item</span>
+      </div>
+    </div>
+    <p id="noItemMessage">No items in the todo list</p>
+    <div id="popupContainer" class="popup">
+      <h1 class="lisname">Add New List</h1>
+      <input type="text" id="itemInput" placeholder="Add New List" />
+      <div>
+        <button id="listAddButton">Add</button>
+        <button id="closePopupButton">Close</button>
+      </div>
+    </div>
+    
+    <div id="overlay" class="overlay"></div>
+    
+    <div id="todoContainer">
+      <!-- Todo list items will be dynamically added here -->
+    </div>
+ <script src="./index.js"></script>
+</body>
+</html>
